@@ -20,14 +20,16 @@ function start() {
 		
 		// ------- Stripslashes & real escape string --------
 		
-      		/*$id = stripslashes($id);
+      		/*
+		$id = stripslashes($id);
         	$id = $conn->real_escape_string($id);
 		$sql = "SELECT o.id, o.full_name,o.country_code,i.code,i.continent_name 
 								FROM users o 
 								INNER JOIN country i 
 								ON o.country_code = i.code
 								WHERE id LIKE $id";
-		$result = $conn->query($sql) or die($conn->error);*/
+		$result = $conn->query($sql) or die($conn->error);
+		*/
 		
 		
 		// ------- Prepare Statement --------
