@@ -6,9 +6,11 @@ include 'db-connect.php';
 function start() {
     // if GET method is identified do the below
     if (isset($_GET['id'])) {
-        // Call the function from 'vk9-db-connect.php'
+        // Call the function from 'db-connect.php'
         $conn = startconn();
+	    
 		$id = $_GET['id'];
+	    
 		// ------- NORMAL/ NO protect ---------
 	
 		$sql = "SELECT o.id, o.full_name,o.country_code,i.code,i.continent_name 
