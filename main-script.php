@@ -1,5 +1,5 @@
 <?php
-// call the startconn function in 'vk9-db-connect.php'
+// call the startconn function in 'db-connect.php'
 include 'db-connect.php';
 
 // This is the file main function engine
