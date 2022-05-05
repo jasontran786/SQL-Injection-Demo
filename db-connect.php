@@ -5,11 +5,9 @@ function startconn()
     $servername = "localhost";
     $username = "root";
     $password = "";
-    $database = "vk9_db";
+    $database = "db-sqli";
 
 // Use mysqli function to connect using the parameters in variables
     $conn = new mysqli($servername, $username, $password, $database);
     return $conn;
 }
-
-
