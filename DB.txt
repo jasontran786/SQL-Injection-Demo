@@ -1,0 +1,10 @@
+CREATE DATABASE vk9_db;
+USE vk9_db;
+CREATE TABLE users (id INT, full_name varchar(12), created_at TIMESTAMP, country_code INT);
+CREATE TABLE country (code INT, name varchar(5), continent_name VARCHAR(15));
+INSERT INTO users (id, full_name, country_code) VALUES (1, 'Vry4n', 506);
+INSERT INTO users (id, full_name, country_code) VALUES (2, 'Itachi', 81);
+INSERT INTO users (id, full_name, country_code) VALUES (3, 'Cristano', 351);
+INSERT INTO country (code, name, continent_name) VALUES (506, 'CR', 'America');
+INSERT INTO country (code, name, continent_name) VALUES (81, 'JP', 'Asia');
+INSERT INTO country (code, name, continent_name) VALUES (351, 'PT', 'Europe');
